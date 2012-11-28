@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'baas.io-sdk' target in the 'baas.io-sdk' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
