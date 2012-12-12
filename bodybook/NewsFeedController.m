@@ -90,7 +90,6 @@
             NSDictionary *object = [[NSDictionary alloc]init];
             
             //Baas.io에서 친구를 포함한 피드 불러오기
-            NSString *uuid = [[[NSUserDefaults standardUserDefaults] objectForKey:@"user"] objectForKey:@"uuid"];
             NSString *username = [[[NSUserDefaults standardUserDefaults] objectForKey:@"user"] objectForKey:@"username"];
             NSString *access_token = [[NSUserDefaults standardUserDefaults] objectForKey:@"access_token"];
             
