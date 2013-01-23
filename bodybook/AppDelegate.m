@@ -17,7 +17,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //BaasClient 초기화
-    [BaasClient setApplicationInfo:@"https://api.baas.io" organizationName:@"gyuchan" applicationName:@"bodybook"];
+    [BaasClient setApplicationInfo:@"https://api.baas.io" organizationName:{baas.io ID} applicationName:{Application ID}];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
